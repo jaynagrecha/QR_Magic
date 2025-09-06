@@ -12,8 +12,8 @@ from pyzbar.pyzbar import decode as zbar_decode
 from PyQt5.QtWidgets import QStatusBar
 
 # --- Placeholders for your actual API keys ---
-VIRUSTOTAL_API_KEY = "992087fb9fa41c08ef7faddc68b62dd875b72c9875c4d98bc8cf5a9cda7d5bae"
-ABUSEIPDB_API_KEY = "d36bc8fb11ce7d1520fde741f2b447164afe0b04946ab8c7991789b40434c749e87371dfce77f7cf"
+VIRUSTOTAL_API_KEY = ""
+ABUSEIPDB_API_KEY = ""
 
 import cv2
 import numpy as np
@@ -615,3 +615,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
